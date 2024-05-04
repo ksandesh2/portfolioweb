@@ -1,0 +1,35 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Autocad",
+    "imageSrc": "skills/Autocad.png"
+  },
+  
+  {
+    "title": "office",
+    "imageSrc": "skills/office.jpg"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Qgis",
+    "imageSrc": "skills/qgis.jpg"
+  },
+  {
+    "title": "Smartroad",
+    "imageSrc": "skills/smartroad.jpg"
+  },
+  {
+    "title": "Sketchup",
+    "imageSrc": "skills/sketchup.jpeg"
+  }
+]

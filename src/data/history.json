@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Research Associate",
+    "organisation": "Varenya Research Foundation Nepal",
+    "startDate": "April, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Design and the contents of Road Safety App",
+      "Research on Wastewater Management"
+    ],
+    "imageSrc": "history/varenya.jpg"
+  },
+  {
+    "role": "Monitoring Evaluation Accountability and Learning(MEAL) Officer",
+    "organisation": "NAXA Pvt. Ltd",
+    "startDate": "Nov, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "KPI tracking of Disaster Related Projects",
+      "Overall implementation of the project"
+    ],
+    "imageSrc": "history/naxa.jpeg"
+  },
+  {
+    "role": "Research Associate",
+    "organisation": "Institute of Himalayan Risk Reduction",
+    "startDate": "June, 2023",
+    "endDate": "Nov, 2023",
+    "experiences": [
+      "Worked on preparation of LSM",
+      "Overall works on the data cleaning, visualization and analysis"
+    ],
+    "imageSrc": "history/ihrr.jpeg"
+  }
+]
