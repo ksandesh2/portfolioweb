@@ -15,18 +15,18 @@
 }
 
 .name {
-  margin-right: 200px;
+  margin-right: 100px;
   font-weight: bold;
-  font-size: 30px; /* Adjusted font size */
-}
-
-.qualification {
-  margin-right: 200px;
   font-size: 25px; /* Adjusted font size */
 }
 
+.qualification {
+  margin-right: 100px;
+  font-size: 20px; /* Adjusted font size */
+}
+
 .title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
