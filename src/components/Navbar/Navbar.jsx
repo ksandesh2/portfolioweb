@@ -7,9 +7,6 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      {/* <a className={styles.title} href="/">
-        Portfolio
-      </a> */}
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -21,14 +18,17 @@ export const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
+
         <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
           onClick={() => setMenuOpen(false)}
         >
           <div className={styles.personalInfo}>
-        <span className={styles.name}>Sandesh Karki</span>
-        <span className={styles.qualification}>B.E. in Civil Engineering</span>
-      </div>
+            <span className={styles.name}>Sandesh Karki</span>
+            <span className={styles.qualification}>
+              B.E. in Civil Engineering
+            </span>
+          </div>
           <li>
             <a href="#about">Research Interest</a>
           </li>
@@ -42,14 +42,13 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#Donate">Blog</a>
+            <a href="#blog">Blog</a>
           </li>
           <li>
-            <a href="#Blogs">Donate</a>
+            <a href="#donate">Donate</a>
           </li>
         </ul>
       </div>
-      
     </nav>
   );
 };
